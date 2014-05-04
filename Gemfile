@@ -4,9 +4,13 @@ ruby '2.0.0'
 
 gem 'rails', '4.1.0'
 
-group :development do
+group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
+  gem 'guard-rspec'
+  gem 'spork-rails'
+  gem 'guard-spork'
+  gem 'childprocess'
 end
 
 group :test do
