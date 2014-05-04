@@ -2,16 +2,16 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 #ruby-gemset=railstutorial_rails_4_0
 
-gem 'rails', '4.0.4'
+gem 'rails', '4.1.0'
 
 group :development do
-  gem 'sqlite3', '1.3.8'
+  gem 'sqlite3'
 end
 
-gem 'sass-rails', '4.0.1'
+gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '2.1.1'
-gem 'coffee-rails', '4.0.1'
-gem 'jquery-rails', '3.0.4'
+gem 'coffee-rails', '~> 4.0.0'
+gem 'jquery-rails'
 gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '1.0.2'
 
